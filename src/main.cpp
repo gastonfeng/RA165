@@ -10,6 +10,9 @@ void setup() {
 void loop() {
     shiftRegIn.read(MSB);
     for (size_t i = 0; i < 8; i++) {
+        Serial.print("Bit ");
+        Serial.print(i);
+        Serial.print(" = ");
         Serial.println(shiftRegIn.getBit(i));
         delay(100);
     }
