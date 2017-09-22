@@ -18,7 +18,8 @@ void RA165::read(RAORDER byteOrder) {
 }
 
 byte RA165::readByte(RAORDER byteOrder) {
-    return readByte(byteOrder);
+    read(byteOrder);
+    return _reg;
 }
 
 int RA165::getBit(int bitToGet) {
