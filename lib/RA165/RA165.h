@@ -21,9 +21,9 @@ class RA165 {
         // Get a bit from the interal byte after a read
         int getBit(int bitToGet);
     protected:
-        int             _clockPin;
-        int             _dataPin;
-        byte            _reg;
+        int             m_clockPin;
+        int             m_dataPin;
+        byte            m_reg;
     private:
 };
 #endif
