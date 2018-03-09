@@ -3,7 +3,7 @@
 "frameworks": "Arduino",
 "keywords": "shift,register,165",
 "description": "Arduino lib for the 165 shift in registers",
-"version": "1.0.1",
+"version": "1.0.2",
 "url": "https://github.com/hippymulehead/RA165",
 "authors":
 [
